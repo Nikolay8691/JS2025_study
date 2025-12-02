@@ -14,6 +14,7 @@
 			function count() {
 				let counter = localStorage.getItem('counter');
 				counter++;
+				console.log(counter);
 				document.querySelector('h1').innerHTML = counter;
 				localStorage.setItem('counter', counter);
 			}
